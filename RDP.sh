@@ -1,5 +1,8 @@
 #! /bin/bash
 printf "Installing RDP Be Patience... " >&2
+sudo useradd abdo
+sudo usermod -aG sudo abdo
+sudo passwd abdo
 {
 sudo useradd -m ALOK
 sudo adduser ALOK sudo
